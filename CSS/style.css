@@ -1,0 +1,115 @@
+
+
+body {
+    padding: 0;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .icon {
+    width: 2em;
+    height: 2em;
+  }
+  
+  .section {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 30px;
+  }
+  
+  #topBanner {
+    text-align: center;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    margin: 5em;
+  }
+  
+  .headSmall {
+  color: #0078CF;
+  margin: 0px;
+  font-weight: bolder;
+  font-size: 30px;
+  
+  }
+  
+  #headTop {
+    text-align: left;
+  }
+  
+  #headBottom {
+    text-align: right;
+  }
+  
+  .headLarge {
+  color: #0078CF;
+  font-size: 150px;
+  margin: 0px;
+  font-weight: bold;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  }
+  
+  #topNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #0078CF;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+  }
+  
+  #aboutMe {
+    background-color: #0078CF;
+    color: white;
+  }
+  
+  #projectOne {
+    background-color: white;
+    color: #0078CF;
+  }
+  
+  #ctsquare {
+    width: 12em;
+    height: 12em;
+  }
+
+  #furnishla {
+    height: 12em;
+  }
+
+  #fulltank {
+    height: 12em;
+  }
+
+  #eeip {
+    height: 12em;
+  }
+  
+  #projectTwo {
+    background-color: #0078CF;
+    color: white;
+  
+  }
+  
+  #projectThree {
+    background-color: white;
+    color: #0078CF;
+  }
+  
+  #projectFour {
+    background-color: #0078CF;
+    color: white;
+  }
