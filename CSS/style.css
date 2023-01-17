@@ -113,3 +113,13 @@ body {
     background-color: #0078CF;
     color: white;
   }
+
+  #herokuWarning {
+    border: green 2px solid;
+    background: green;
+    color: white;
+    font-size: large;
+    padding: 1em;
+    font-style: italic;
+    
+  }
