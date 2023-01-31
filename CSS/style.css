@@ -10,6 +10,10 @@ body {
     max-width: fit-content
   }
 
+  h4 {
+    font-style: italic;
+  }
+
   .icon {
     width: 2em;
     height: 2em;
@@ -89,10 +93,15 @@ body {
   #ctsquare {
     width: 12em;
     height: 12em;
+    box-shadow: 5px 5px;
+    border-radius: 10px;
+    
   }
 
   #furnishla {
     height: 12em;
+    box-shadow: 5px 5px;
+    border-radius: 10px;
   }
 
   #fulltank {
@@ -125,6 +134,25 @@ body {
     text-align: left;
     padding: 3em;
     padding-top: 1em;
+  }
+
+  .sectionBlue {
+    display: flex;
+    flex-direction: row;
+    background-color: #0078CF;
+    color: white;
+  }
+
+  .blueLeft {
+    font-size: 0.5em;
+    text-align: right;
+    padding: 3em;
+    padding-top: 1em;
+ 
+  }
+
+  .blueRight {
+    padding-right: 2em;
   }
   
   #projectFour {
