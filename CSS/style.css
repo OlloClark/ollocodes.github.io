@@ -30,13 +30,17 @@ body {
   }
   
   #topBanner {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     justify-items: center;
     text-align: center;
-    padding-top: 15em;
-    padding-bottom: 0em;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    padding-left: 5em;
+    padding-right: 5em;
     margin: 0;
-    height: 100vh;
+    height: 75vh;
     
   }
   
@@ -127,6 +131,7 @@ body {
 
   .whiteLeft {
     padding-left: 2em;
+    width: fit-content;
   }
 
   .whiteRight {
@@ -153,7 +158,10 @@ body {
 
   .blueRight {
     padding-right: 2em;
+    width: fit-content;
   }
+
+  
   
   #projectFour {
     background-color: #0078CF;
@@ -168,4 +176,28 @@ body {
     padding: 1em;
     font-style: italic;
     
+  }
+
+  @media (orientation: portrait) {
+
+    .sectionBlue {
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+    }
+
+    .sectionWhite {
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+    }
+
+    .whiteRight, .blueLeft {
+      text-align: center;
+    }
+
+    .whiteLeft, .blueRight {
+      padding: 0;
+    }
+
   }
