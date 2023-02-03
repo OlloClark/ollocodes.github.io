@@ -206,6 +206,24 @@ body {
     height: 12em;
   }
 
+  #accordion {
+    height: 12em;
+  }
+
+  #interactiveCard {
+    height: 12em;
+  }
+
+  #ratingOne {
+    height: 12em;
+  }
+
+  #ratingSecond {
+    height: 12em;
+  }
+
+
+
   @media (orientation: portrait) {
 
     .sectionBlue {
