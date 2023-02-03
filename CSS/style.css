@@ -116,10 +116,14 @@ body {
 
   #fulltank {
     height: 12em;
+    box-shadow: 5px 5px;
+    border-radius: 10px;
   }
 
   #eeip {
     height: 12em;
+    box-shadow: 5px 5px;
+    border-radius: 10px;
   }
   
   #projectTwo {
@@ -164,7 +168,6 @@ body {
 
   .blueRight {
     padding-right: 2em;
-    width: fit-content;
   }
 
   #projectFour {
@@ -204,22 +207,32 @@ body {
 
   #itemCard {
     height: 12em;
+    box-shadow: 5px 5px;
+    border-radius: 10px;
   }
 
   #accordion {
     height: 12em;
+    box-shadow: 5px 5px;
+    border-radius: 10px;
   }
 
   #interactiveCard {
     height: 12em;
+    box-shadow: 5px 5px;
+    border-radius: 10px;
   }
 
   #ratingOne {
     height: 12em;
+    box-shadow: 5px 5px;
+    border-radius: 10px;
   }
 
   #ratingSecond {
     height: 12em;
+    box-shadow: 5px 5px;
+    border-radius: 10px;
   }
 
 
