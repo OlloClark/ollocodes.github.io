@@ -32,6 +32,8 @@ body {
     padding-right: 15px;
     font-size: 30px;
     margin: 0;
+    background-color: #0078CF;
+    color: white;
   }
   
   #topBanner {
@@ -110,38 +112,13 @@ body {
     display: none;
     border-bottom: white 3px solid;
   }
-  
-  #aboutMe {
-    background-color: #0078CF;
-    color: white;
-  }
-  
-  #projectOne {
+
+    #projectOne {
     background-color: white;
     color: #0078CF;
   }
-  
-  #ctsquare {
-    width: 12em;
-    height: 12em;
-    box-shadow: 5px 5px;
-    border-radius: 10px;
-    
-  }
 
-  #furnishla {
-    height: 12em;
-    box-shadow: 5px 5px;
-    border-radius: 10px;
-  }
-
-  #fulltank {
-    height: 12em;
-    box-shadow: 5px 5px;
-    border-radius: 10px;
-  }
-
-  #eeip {
+  .displayImg {
     height: 12em;
     box-shadow: 5px 5px;
     border-radius: 10px;
@@ -226,35 +203,7 @@ body {
     color: rgb(47, 47, 47);
   }
 
-  #itemCard {
-    height: 12em;
-    box-shadow: 5px 5px;
-    border-radius: 10px;
-  }
-
-  #accordion {
-    height: 12em;
-    box-shadow: 5px 5px;
-    border-radius: 10px;
-  }
-
-  #interactiveCard {
-    height: 12em;
-    box-shadow: 5px 5px;
-    border-radius: 10px;
-  }
-
-  #ratingOne {
-    height: 12em;
-    box-shadow: 5px 5px;
-    border-radius: 10px;
-  }
-
-  #ratingSecond {
-    height: 12em;
-    box-shadow: 5px 5px;
-    border-radius: 10px;
-  }
+  
 
 
 
