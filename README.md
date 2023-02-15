@@ -2,6 +2,8 @@
 
 ## Ollo Clark's coding portfolio
 
+![](./images/screenshot1.png)
+
 ### Welcome! I'm Ollo. And I code.
 
 I'm hoping to use my portfolio site as a whetstone for new front-end skills, as well as just a repository of past projects. If there's anything you like the look of, please do reach out!
