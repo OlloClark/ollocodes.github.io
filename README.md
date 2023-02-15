@@ -12,6 +12,8 @@ I'm hoping to use my portfolio site as a whetstone for new front-end skills, as 
 
 Currently, this is an HTML/Vanilla CSS/JS project. I've considered frameworks like Tailwind, which I enjoy very much, but want to grind out the CSS myself for now as a learning experience. Maybe that willpower will change...
 
+![](./images/screenshot2.png)
+
 ### Current goals moving forward:
 
 * Adding a contact form.
