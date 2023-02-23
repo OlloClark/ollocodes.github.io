@@ -113,21 +113,10 @@ body {
     border-bottom: white 3px solid;
   }
 
-    #projectOne {
-    background-color: white;
-    color: #0078CF;
-  }
-
   .displayImg {
     height: 12em;
     box-shadow: 5px 5px;
     border-radius: 10px;
-  }
-  
-  #projectTwo {
-    background-color: #0078CF;
-    color: white;
-  
   }
   
   .sectionWhite {
