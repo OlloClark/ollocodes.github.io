@@ -193,7 +193,11 @@ body {
     color: rgb(47, 47, 47);
   }
 
-  
+  #workIntro {
+    background-color: white;
+    color: #0078CF;
+    padding: 0.5em;
+  }
 
 
 
