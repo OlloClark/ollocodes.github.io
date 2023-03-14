@@ -6,7 +6,7 @@
 
 body {
   padding: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -15,8 +15,13 @@ body {
   overflow-x: hidden;
 }
 
+h1, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 h4 {
   font-style: italic;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .icon {
