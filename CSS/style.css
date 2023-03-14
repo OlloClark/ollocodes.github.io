@@ -1,6 +1,7 @@
 :root {
-  --dark: rgb(44, 42, 42);
-  --light: rgb(159, 67, 67);
+  --dark: rgb(40, 40, 41);
+  --light: rgb(255, 255, 255);
+  --splash: yellow;
 }
 
 body {
@@ -139,7 +140,7 @@ h4 {
   border-radius: 10px;
 }
 
-.sectionWhite {
+.sectionLight {
   display: flex;
   flex-direction: row;
   background-color: var(--light);
@@ -147,33 +148,33 @@ h4 {
   width: 100vw;
 }
 
-.whiteLeft {
+.lightLeft {
   padding: 2em 1em 2em 3em;
   width: fit-content;
 }
 
-.whiteRight {
+.lightRight {
   font-size: 0.5em;
   text-align: left;
   padding: 3em;
   padding-right: 8em;
 }
 
-.sectionBlue {
+.sectionDark {
   display: flex;
   flex-direction: row;
   background-color: var(--dark);
   color: var(--light);
 }
 
-.blueLeft {
+.darkLeft {
   font-size: 0.5em;
   text-align: left;
   padding: 3em;
   padding-left: 8em;
 }
 
-.blueRight {
+.darkRight {
   padding: 2em 3em 2em 1em;
   padding-left: 0em;
 
@@ -186,42 +187,42 @@ a:link {
 }
 
 a:visited {
-  color: var(--light);
+  color: inherit;
 }
 
 a:hover {
-  color: rgb(54, 190, 220);
+  color: var(--splash);
 }
 
-.whiteLink:visited {
-  color: var(--dark);
+.lightLink:visited {
+  color: inherit;
 }
 
-.whitelink:hover {
-  color: rgb(47, 47, 47);
+.lightLink:hover {
+  color: var(--splash);
 }
 
 
 @media (orientation: portrait) {
-  .sectionBlue {
+  .sectionDark {
     flex-direction: column;
     justify-items: center;
     align-items: center;
   }
 
-  .sectionWhite {
+  .sectionLight {
     flex-direction: column;
     justify-items: center;
     align-items: center;
   }
 
-  .whiteRight,
-  .blueLeft {
+  .lightRight,
+  .darkLeft {
     text-align: center;
   }
 
-  .whiteLeft,
-  .blueRight {
+  .lightLeft,
+  .darkRight {
     padding: 0;
   }
 }
