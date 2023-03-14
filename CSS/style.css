@@ -3,7 +3,6 @@
   --light: rgb(159, 67, 67);
 }
 
-
 body {
   padding: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -12,7 +11,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   max-width: fit-content;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 h4 {
@@ -34,14 +33,21 @@ h4 {
   flex-direction: column;
   width: 100vw;
   text-align: center;
-  padding-bottom: 80px;
-  padding-top: 80px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 1em;
   font-size: 30px;
   margin: 0;
   background-color: var(--dark);
   color: var(--light);
+}
+
+.sectionContent {
+  padding: 0em 2em;
+}
+
+#workIntro {
+  background-color: var(--light);
+  color: var(--dark);
+  padding: 0.5em;
 }
 
 #topBanner {
@@ -162,7 +168,7 @@ h4 {
 
 .blueLeft {
   font-size: 0.5em;
-  text-align: right;
+  text-align: left;
   padding: 3em;
   padding-top: 1em;
 }
@@ -171,10 +177,6 @@ h4 {
   padding-right: 2em;
 }
 
-#projectFour {
-  background-color: var(--dark);
-  color: var(--light);
-}
 
 a:link {
   text-decoration: none;
@@ -197,11 +199,6 @@ a:hover {
   color: rgb(47, 47, 47);
 }
 
-#workIntro {
-  background-color: var(--light);
-  color: var(--dark);
-  padding: 0.5em;
-}
 
 @media (orientation: portrait) {
   .sectionBlue {
