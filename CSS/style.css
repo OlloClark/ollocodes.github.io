@@ -142,7 +142,7 @@ h4 {
   z-index: 1;
 }
 
-#topNav a:hover{
+#topNav a:hover {
   color: var(--light);
 }
 
@@ -150,7 +150,6 @@ h4 {
   height: 12em;
   box-shadow: 5px 5px;
   border-radius: 10px;
-  
 }
 
 .displayImg:hover {
@@ -165,7 +164,7 @@ h4 {
 .sectionLight {
   display: flex;
   flex-direction: row;
-  background-image: linear-gradient(var(--light), rgb(214, 213, 213));
+  background-image: linear-gradient(var(--light), rgb(242, 242, 242));
   color: var(--dark);
   width: 100vw;
 }
@@ -220,6 +219,11 @@ a:hover {
 
 .lightLink:hover {
   color: var(--splash);
+}
+
+.highlightWord {
+  color: var(--splash);
+  font-style: italic;
 }
 
 @media (orientation: portrait) {
