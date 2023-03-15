@@ -52,6 +52,7 @@ h4 {
 }
 
 #workIntro {
+  display: flex;
   background-image: linear-gradient(var(--light), rgb(214, 213, 213));
   color: var(--dark);
   padding: 0.5em;
@@ -135,7 +136,7 @@ h4 {
   width: 100%;
   background-color: var(--dark);
   font-weight: bold;
-  color: var(--light);
+  color: var(--splash);
   font-size: 20px;
   border-bottom: var(--light) 3px solid;
   z-index: 1;
@@ -198,7 +199,7 @@ h4 {
 
 a:link {
   text-decoration: none;
-  color: var(--light);
+  color: var(--splash);
 }
 
 a:visited {
